@@ -1,14 +1,4 @@
-# cursive
-
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Personal full stack Clojure/script, Datomic, Om project for making a todo-list
+BDD Cucumber included too
+Setup includes Docker linked containers.
+Figwheel with vim.
