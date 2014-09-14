@@ -1,0 +1,1 @@
+{"nfs":{"core":{"id":"core","nfs":true,"mount_options":["nolock,vers=3,udp"],"guestpath":"/home/core/share","hostpath":"/Users/rej156/Red-Badger/cursive","disabled":false,"type":"nfs","map_uid":501,"map_gid":20,"nfs_udp":true,"nfs_version":3,"uuid":"1566581913"}}}

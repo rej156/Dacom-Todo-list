@@ -25,13 +25,13 @@
 (def app
   (-> handler
       (cors/wrap-cors
-        :access-control-allow-origin #"http://localhost:8000"
+        :access-control-allow-origin #"http://localhost:80"
         :access-control-allow-methods ["GET"]
         :access-control-allow-headers ["Content-Type"])
       (wrap-restful-format :formats [:edn])))
 
 (defn -main [& [port]]
   (init-conn)
-  (let [port (Integer. (or port (:port (read-config)) (System/getenv "PORT") 3000))]
+  (let [port (Integer. (or port (:port (read-config)) (System/getenv "PORT") 80))]
     (jetty/run-jetty app {:port port :join? false})
     (println "Started server on port" port)))

@@ -454,7 +454,7 @@
       <table class="highlight tab-size-8 js-file-line-container">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code js-file-line"><span class="p">{</span><span class="ss">:datomic-uri</span> <span class="s">&quot;datomic:free://localhost:4334/test&quot;</span><span class="p">}</span></td>
+        <td id="LC1" class="blob-code js-file-line"><span class="p">{</span><span class="ss">:datomic-uri</span> <span class="s">&quot;datomic:free://datomic:4334/test&quot;</span><span class="p">}</span></td>
       </tr>
 </table>
 

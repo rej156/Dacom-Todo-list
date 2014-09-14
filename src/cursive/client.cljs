@@ -11,7 +11,7 @@
 
 (def server-chan (chan))
 
-(ajax/GET "http://localhost:3000/"
+(ajax/GET "http://localhost:80"
           {:handler (fn [response]
                       (put! server-chan response))})
 
